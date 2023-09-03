@@ -1,0 +1,350 @@
+html {
+  background-color: #f1f1f1;
+}
+
+.nav-items {
+  display: flex;
+  margin: 2rem;
+  flex-wrap: wrap;
+}
+
+.nav-title {
+  width: 20%;
+  margin-right: 5px;
+}
+
+.nav-title > p {
+  font-family: cursive;
+  font-size: 20px;
+  color: #433f30;
+}
+
+.nav-options {
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.nav-options > a {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  color: #433f30;
+  margin-right: 5px;
+}
+
+.home {
+  display: flex;
+  flex-direction: row;
+  padding-top: 7rem;
+}
+
+.home-text {
+  width: 35%;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  margin: 2rem;
+}
+
+.home-text > h3 {
+  font-size: 3rem;
+  color: #433f30;
+  text-align: justify;
+}
+
+.home-text > button {
+  width: 20%;
+  border: solid 1px #f6685a;
+  background-color: #f6685a;
+  border-radius: 15px;
+  height: 2rem;
+  color: white;
+}
+
+.home-img {
+  width: 55%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2rem;
+}
+
+.home-img > img {
+  width: 100%;
+}
+
+.about-me {
+  display: flex;
+  padding-top: 7rem;
+  flex-wrap: wrap;
+}
+
+.about-me > img {
+  width: 65%;
+}
+
+.about-me > div {
+  padding-right: 3rem;
+  width: 30%;
+}
+
+.about-me > div > h2 {
+  color: #433f30;
+  font-size: x-large;
+  font-family: cursive;
+}
+
+.about-me > div > p {
+  color: #433f30;
+  font-size: larger;
+  text-align: justify;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.courses {
+  display: flex;
+  flex-direction: column;
+  padding-top: 7rem;
+  margin: 2rem;
+}
+
+.courses > h2 {
+  color: #433f30;
+  font-size: 3rem;
+  font-family: cursive;
+}
+
+.courses-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.course-card {
+  align-items: center;
+  width: 47%;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.course-card > p {
+  width: 50%;
+  height: 8rem;
+  text-align: center;
+  border: solid 1px #f18562;
+  color: white;
+  background-color: #f18562;
+  border-radius: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+}
+
+.advantages {
+  padding-top: 7rem;
+}
+
+.advantages > h3 {
+  color: #433f30;
+  font-size: 3rem;
+  text-align: center;
+  font-family: cursive;
+}
+
+.advantages-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 3rem;
+}
+
+.advantages-card {
+  border: solid 1px #f6685a;
+  background-color: #f6685a;
+  border-radius: 45px;
+  width: 20%;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.advantages-card > p {
+  color: white;
+  font-size: x-large;
+  text-align: center;
+  margin: 11px;
+}
+
+.students {
+  padding-top: 7rem;
+  margin: 2rem;
+}
+
+.students > h2 {
+  color: #433f30;
+  font-size: 3rem;
+  font-family: cursive;
+}
+
+.students-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.students-card {
+  display: flex;
+  border: solid 1px #f18562;
+  background-color: #f18562;
+  width: 55%;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 10px;
+  flex-wrap: wrap;
+}
+
+.students-card > img {
+  width: 20%;
+  background-color: white;
+  border-radius: 50px;
+  height: 100px;
+}
+
+.students-card > p {
+  font-size: larger;
+  color: white;
+  margin: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+}
+
+.man-card {
+  align-self: flex-end;
+  margin-top: 5rem;
+}
+
+.contact {
+  padding-top: 7rem;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact > h2 {
+  text-align: center;
+  font-family: sans-serif;
+  color: #433f30;
+  font-size: xx-large;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-container > label {
+  margin-bottom: 10px;
+  font-size: large;
+}
+
+.contact-container > input {
+  margin-bottom: 10px;
+  height: 1.5rem;
+}
+
+.contact-container > button {
+  width: 30%;
+  align-self: flex-end;
+  margin-top: 30px;
+  border: solid 1px #f6685a;
+  background-color: #f6685a;
+  border-radius: 15px;
+  color: white;
+  height: 35px;
+  font-size: large;
+}
+
+@media screen and (max-width: 1146px) {
+  .courses-container {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 975px) {
+  .about-me > div {
+    padding: 3rem;
+    width: 90%;
+  }
+  .about-me > img {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 951px) {
+  .students-card > img {
+    width: 30%;
+  }
+  .students-card > p {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .home {
+    flex-direction: column;
+  }
+  .home-text {
+    width: 80%;
+  }
+  .home-img {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 765px) {
+  .advantages-container {
+    align-items: center;
+    flex-direction: column;
+  }
+  .advantages-card {
+    margin-bottom: 20px;
+    width: 35%;
+  }
+}
+
+@media screen and (max-width: 655px) {
+  .home {
+    padding-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 655px) {
+  .course-card {
+    width: 70%;
+  }
+  .students-card > img {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 434px) {
+  .advantages-card {
+    width: 55%;
+  }
+
+  .course-card {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 434px) {
+  .nav-title {
+    margin-right: 13px;
+  }
+}
